@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>CONNECTION TO METAMASK</title>
+          <link rel="stylesheet" href="public/styles.css">
+     </head>
+     <body>
+          <button onclick="connectMetamask()">CONNECT TO METAMASK</button>
+          <br />
+          <p id="accountArea"></p>
+          <button onclick="connectContract()">CONNECT TO CONTRACT</button>
+          <br />
+          <p id="contractArea"></p>
+
+          <div id="fixtures">
+               <button onclick="getFixtures()">FIXTURES</button> <br />
+          </div>
+          <div id="withdraw">
+               <button onclick="withdraw()">WITHDRAW</button>
+               <br />
+          </div>
+          <script
+               type="text/javascript"
+               src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"
+          ></script>
+          <script type="text/javascript" src="public/script.js"></script>
+     </body>
+</html>
